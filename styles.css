@@ -6,6 +6,7 @@
 :root {
     --background-purple: #520676;
     --purple-gradient: linear-gradient(135deg, rgb(40, 35, 44) 0%, rgba(82, 6, 118, 1) 100%);
+    --pastel-purple: #9b4fbe;
 }
 
 html {
@@ -23,7 +24,7 @@ body {
 
 h1{
     font-family: 'Electrolize';
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 
 header{
@@ -33,7 +34,7 @@ header{
 }
 
 .nav-menu{
-    margin: 10px;
+    margin: 2rem;
     padding: 1rem;
     background-color: black;
     border-radius: 25px;
@@ -56,7 +57,7 @@ header{
 }
 
 .hero svg{
-    max-height: 20px;
+    max-height: 1.8rem;
 }
 
 .hero-left {
@@ -64,12 +65,11 @@ header{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .hero-left p{
     opacity: 70%;
-    font-size: 0.9rem;
 }
 
 .hero-right {
@@ -94,7 +94,7 @@ header{
 }
 
 .hero-contact svg {
-    max-height: 25px;
+    max-height: 2rem;
 }
 
 #curriculum-button{
@@ -104,7 +104,4 @@ header{
     border: 1px solid #575353;
     border-radius: 25px;
 }
-
-
-
 
