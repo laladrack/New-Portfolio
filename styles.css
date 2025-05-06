@@ -36,17 +36,24 @@ header{
 .nav-menu{
     margin: 2rem;
     padding: 1rem;
-    background-color: black;
+    background-color: rgb(29, 29, 31);
     border-radius: 25px;
     border: 2px solid #373333;
-    opacity: 60%;
     display: flex;
     gap: 1em;
 }
 
+.nav-menu:hover {
+    border: 2.5px solid #575454;
+}
+
 .nav-menu a {
-    color:#fff;
+    color: #b3a0a0;
     text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: #fff;
 }
 
 .hero {
